@@ -1,4 +1,6 @@
 --Part 1
+
+-- SHOW COLUMNS FROM job;
 /* id - int
 employer - varchar(255)
 name - varchar(255)
