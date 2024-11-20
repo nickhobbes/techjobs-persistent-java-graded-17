@@ -20,6 +20,7 @@ public class Skill extends AbstractEntity {
     @ManyToMany(mappedBy="skills")
     private List<Job> jobs = new ArrayList<>();
 
+
     public Skill() {}
 
     public @NotBlank(message = "Description is required") @Size(max = 255, message = "Description is too long!") String getDescription() {
